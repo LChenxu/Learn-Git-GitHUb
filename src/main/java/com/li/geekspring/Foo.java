@@ -1,5 +1,8 @@
 package com.li.geekspring;
 
+import lombok.Builder;
+import lombok.Data;
+
 /**
  * @author lichenxu
  * @version V1.0
@@ -8,6 +11,8 @@ package com.li.geekspring;
  * @example:
  * @Description:
  */
+@Data
+@Builder
 public class Foo {
     private Long id;
     private String bar;
